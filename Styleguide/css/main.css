@@ -52,7 +52,7 @@ section code {
   padding-right: 2em;
 
   display: block;
-  color: #BEA2A1;
+  color: black;
   text-align: center;
   text-decoration: none;
  
@@ -60,7 +60,7 @@ section code {
 
 .button-nav:hover, .button-nav:focus {
   border-bottom: 2px solid #BEA2A1;
-  color: #696773;
+  color:#BEA2A1;
 }
 
 
