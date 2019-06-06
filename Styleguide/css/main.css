@@ -281,15 +281,15 @@ li.nav1{
 
 li.nav1 a {
     display: block;
-    color: #BEA2A1;
+    color: black;
     text-align: center;
     text-decoration: none;
 
 }
 
 li.nav1 a:hover {
-	 border-bottom: 2px solid #BEA2A1;
-     color: #696773;
+	 border-bottom: 2px solid black;
+     color:#BEA2A1;
 }
 
 .h2_hi {
