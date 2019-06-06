@@ -233,14 +233,20 @@ list-style-type: none;
 
 h1.h1_hi{	
 	font-weight: normal;
-	font-size:1em;
-	color:#FFFFFF;
-    background-color: #455A64;
+	font-size:3em;
+	color:black;
+    background-color: #F7F7F5;
     padding-top: 1em;
-    padding-left: 2em;
+
     padding-bottom: 0.8em;
+    margin-top: 0;
+  	    font-family: 'Quicksand', sans-serif;
+     text-align: center;
+   
    
 }
+
+
 
 ul{
 	font-family: 'Tajawal', sans-serif;
