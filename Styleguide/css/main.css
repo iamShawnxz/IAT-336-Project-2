@@ -336,14 +336,14 @@ li.nav1 a:hover {
 	height: 20px;
 	padding-top: 2em;
 	padding-bottom: 2em;
-	color:white;
+	color:black;
 	clear: both;
 	width:100%;
 	bottom:0;
     text-align: center;
-    background-color: #455A64;
+    background-color: #F7F7F5;
   	position: relative;
-   
+   	margin-top: 200px;
 }
 
 #decorate_title{	
