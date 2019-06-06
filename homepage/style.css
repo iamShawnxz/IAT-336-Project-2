@@ -80,7 +80,7 @@ li.nav1 a:hover {
 h2 {
 	color:grey;
     font-size:70px;
-    margin-left: 42%;
+    text-align: center;
 	font-weight: bold;
 	padding-left: 0.7em;
 	margin-bottom: -0.7em;
@@ -124,12 +124,10 @@ h2 {
 #decorate_title{	
     color:grey;
     font-size:25px;
-font-family: 'Montserrat', sans-serif;
-    margin-left: 42%;
-    margin-top: 2em;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3em;
 	font-weight: normal;
-	padding-left: 0.7em;
-	margin-bottom: -0.7em;
+
 }
 
 #titlepageParagraph{
