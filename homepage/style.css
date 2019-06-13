@@ -111,6 +111,7 @@ h2 {
 }
 
 .homepageImg{
+    display:flex;
  	margin-left: 8em;
  	margin-top: 0em;
  	margin-bottom: 3em;
@@ -336,4 +337,14 @@ h2 #event_list {
 font-family: 'Open Sans', sans-serif;
         width: 260px;
     height: 280px;
+}
+
+@media screen and (max-width:30em){
+    .nav{
+        flex-direction: column;
+    }
+    .container .block{
+        width:100%;
+
+    }
 }
