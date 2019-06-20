@@ -364,8 +364,8 @@ p.login{
 .productImg{
 
   	margin-left: 20%;
-    width:60%;
-	height:30%;
+    width:45%;
+	height:65%;
 
 }
 
@@ -386,14 +386,13 @@ p.login{
 #itempageParagraph{
 
 	 color:black;
-	width:50%;
-margin-left: 25%;
+	width:110%;
+margin-left: -80%;
 margin-bottom: 3em;
 font-family: 'Muli', sans-serif;
 font-size: 14px;
 line-height:250%;
 letter-spacing: 1.5px;
-text-align: center;
 
 }
 
