@@ -348,3 +348,9 @@ font-family: 'Open Sans', sans-serif;
 
     }
 }
+
+/*login page*/
+p.login{
+
+ padding-left: 3em;
+}
