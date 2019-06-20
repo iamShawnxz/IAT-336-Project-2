@@ -204,6 +204,7 @@ text-align: center;
 	float: left;
 }
 
+
 .homepageParagraph{
 
 	 color:black;
@@ -214,6 +215,8 @@ padding-top: 4.5em;
 margin-bottom: 3em;
 
 }
+
+
 
 h2 #event_list {
 	color:grey;
@@ -354,3 +357,34 @@ p.login{
 
  padding-left: 3em;
 }
+
+
+
+/*item page*/
+.productImg{
+
+  	margin-left: 25%;
+    width:60%;
+	height:80%;
+
+}
+
+
+.proInfo {
+  display: flex;
+
+}
+
+.proInfo > div {
+
+  margin: 10px;
+  padding: 10px;
+
+}
+
+
+
+
+
+
+
