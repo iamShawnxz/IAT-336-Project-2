@@ -370,19 +370,31 @@ p.login{
 }
 
 
-.proInfo {
+.proInfo{
   display: flex;
-  flex-wrap: wrap;
-
+  background-color: DodgerBlue;
 }
 
+
 .proInfo > div {
-
-  width: 100%;
+  background-color: #f1f1f1;
   margin: 10px;
-
-  line-height: 75px;
+  padding: 20px;
   font-size: 30px;
+}
+
+#itempageParagraph{
+
+	 color:black;
+	width:50%;
+margin-left: 25%;
+margin-bottom: 3em;
+font-family: 'Muli', sans-serif;
+font-size: 14px;
+line-height:250%;
+letter-spacing: 1.5px;
+text-align: center;
+
 }
 
 
