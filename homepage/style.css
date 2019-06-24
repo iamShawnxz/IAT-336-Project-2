@@ -35,30 +35,13 @@ font-size:0.5em;
 	        height:12em;
 }
 
-#nav_top {
-display: inline;
-font-family: 'Tajawal', sans-serif;
-background-color:#F7F7F5;
-
- list-style-type: none;
-    overflow: hidden;
-    transition: background-color 0.5s ease-out;
-	padding-left:5em;
-
-
+#nav_top{
+    text-align:right;
+    list-style-type:none;
 }
 
 #nav_top li{
-display: inline;
-
-}
-
-
-ul{
-	font-family: 'Tajawal', sans-serif;
-	text-align: center;
-	margin-top: -5em;
-    background-color:#F7F7F5;
+    display: inline-block;
 }
 
 ul#nav li{
