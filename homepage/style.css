@@ -14,10 +14,10 @@ h1{
 	font-size:3em;
 	color:black;
     background-color: #F7F7F5;
-    padding-top: 1em;
+    padding-top: 1.5em;
 
     padding-bottom: 0.8em;
-    margin-top: 0;
+    margin-top: -1.2em;
   	font-family: 'Quicksand', sans-serif;
     text-align: center;
 
@@ -36,8 +36,10 @@ font-size:0.5em;
 }
 
 #nav_top{
+     background-color: #F7F7F5;
     text-align:right;
     list-style-type:none;
+   
 }
 
 #nav_top li{
