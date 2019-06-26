@@ -48,7 +48,9 @@ font-size:0.5em;
 #nav_top li{
     display: inline-block;
     font-family: 'Tajawal', sans-serif;
-    margin-left:5em;
+    margin-right: 2em;
+    overflow: hidden;
+    transition: background-color 0.5s ease-out;
   
 
 }
