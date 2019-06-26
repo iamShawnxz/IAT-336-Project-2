@@ -161,32 +161,7 @@ h2 {
 
 }
 
- .btn-buy {
-    margin-right:1rem;
-    color:white;
-    background-color: black;
-    border:1px solid black;
-    letter-spacing:1px;
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 1em;
-    padding-right: 1em;
-    text-decoration: none;
-    font-size: 12px;
-    
-  }
-
-   .btn-details {
-    margin-right:1rem;
-    color:black;
-    border:1px solid black;
-    letter-spacing:1px;
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 1em;
-    padding-right: 1em;
-    text-decoration: none;
-    font-size: 12px;
-  }
-
+ 
 
 /*event page*/
 
@@ -307,11 +282,13 @@ h2 #event_list {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin: 90px auto 80px auto;
+    margin-left:-15%;
 }
  
 #prointroduction {
     display: flex;
     justify-content: space-between;
+    margin-left:-12%;
 }
  
 #prointroduction div {
@@ -333,6 +310,7 @@ h2 #event_list {
 
 #product_list{
     padding-left:16%;
+ 
 }
 
 
@@ -344,6 +322,7 @@ display:flex;
 #sidemenu_container{
 margin:0 auto;
 
+margin-left:5%;
 }
 
 #sidemenu_container ul{
@@ -375,8 +354,38 @@ margin:0 auto;
     color:black;
 }
 
+.btn-buy {
+    margin-right:1rem;
+    color:white;
+    background-color: black;
+    border:1px solid black;
+    letter-spacing:1px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-decoration: none;
+    font-size: 12px;
+    
+  }
 
+   .btn-details {
+    margin-right:1rem;
+    color:black;
+    border:1px solid black;
+    letter-spacing:1px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-decoration: none;
+    font-size: 12px;
+  }
 
+ a.btn-details:hover {
+      transition: background-color 0.5s ease-out;
+   background-color: black;
+   border:1px solid black;
+   color:white;
+}
 @media screen and (max-width:30em){
     .nav{
         flex-direction: column;
@@ -396,7 +405,7 @@ p.login{
 /*item page*/
 .productImg{
     margin-top: 1em;
-  	margin-left: 20%;
+  	margin-left: 30%;
     width:45%;
 	height:65%;
 }
