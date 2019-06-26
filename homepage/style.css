@@ -21,29 +21,36 @@ h1{
   	font-family: 'Quicksand', sans-serif;
     text-align: center;
 
+    width: 100%;
+
    
 }
 
 .h1_title{
 font-size:0.5em;
 	color:black;
-	    background-color:#F7F7F5;
-	    font-family: 'Quicksand', sans-serif;
+	background-color:#F7F7F5;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+	margin-top: -5em;
+	height:12em;
 
-	        text-align: center;
-	        margin-top: -5em;
-	        height:12em;
 }
 
 #nav_top{
-     background-color: #F7F7F5;
+    background-color: #F7F7F5;
     text-align:right;
     list-style-type:none;
+    
    
 }
 
 #nav_top li{
     display: inline-block;
+    font-family: 'Tajawal', sans-serif;
+    margin-left:5em;
+  
+
 }
 
 ul#nav li{
