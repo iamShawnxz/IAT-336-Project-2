@@ -317,10 +317,13 @@ h2 #event_list {
     display: table-cell;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    width: 260px;
-    height: 280px;
+    width: 220px;
+    height: 260px;
+
 
 }
+
+
 
 @media screen and (max-width:30em){
     .nav{
