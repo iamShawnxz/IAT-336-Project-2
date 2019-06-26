@@ -289,7 +289,8 @@ h2 #event_list {
  #products {
     width: 960px;
     height: 680px;
-    margin: 0 auto;    
+    margin: 0 auto; 
+       
 }
  
 #products>div:first-child {
@@ -308,6 +309,8 @@ h2 #event_list {
     width: 260px;
     height: 280px;
     margin-bottom: 5em;
+
+    margin-left:8%;
 }
  
 #prointroduction img {
@@ -316,6 +319,7 @@ h2 #event_list {
     font-family: 'Open Sans', sans-serif;
     width: 260px;
     height: 280px;
+
 }
 
 @media screen and (max-width:30em){
