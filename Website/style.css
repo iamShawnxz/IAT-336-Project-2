@@ -418,6 +418,7 @@ p.login{
 
 .proInfo > div {
     margin: 10px;
+    
     padding: 20px;
     font-size: 30px;
 }
@@ -425,7 +426,7 @@ p.login{
 #itempageParagraph{
     color:black;
     width:110%;
-    margin-left: -80%;
+    margin-left: -100%;
     margin-bottom: 3em;
     margin-top: 5em;
     font-family: 'Muli', sans-serif;
