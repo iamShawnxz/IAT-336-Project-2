@@ -153,32 +153,7 @@ h2 {
 
 }
 
- .btn-buy {
-    margin-right:1rem;
-    color:white;
-    background-color: black;
-    border:1px solid black;
-    letter-spacing:1px;
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 1em;
-    padding-right: 1em;
-    text-decoration: none;
-    font-size: 12px;
-    
-  }
-
-   .btn-details {
-    margin-right:1rem;
-    color:black;
-    border:1px solid black;
-    letter-spacing:1px;
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 1em;
-    padding-right: 1em;
-    text-decoration: none;
-    font-size: 12px;
-  }
-
+ 
 
 /*event page*/
 
@@ -367,8 +342,38 @@ margin:0 auto;
     color:black;
 }
 
+.btn-buy {
+    margin-right:1rem;
+    color:white;
+    background-color: black;
+    border:1px solid black;
+    letter-spacing:1px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-decoration: none;
+    font-size: 12px;
+    
+  }
 
+   .btn-details {
+    margin-right:1rem;
+    color:black;
+    border:1px solid black;
+    letter-spacing:1px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-decoration: none;
+    font-size: 12px;
+  }
 
+ a.btn-details:hover {
+      transition: background-color 0.5s ease-out;
+   background-color: black;
+   border:1px solid black;
+   color:white;
+}
 @media screen and (max-width:30em){
     .nav{
         flex-direction: column;
