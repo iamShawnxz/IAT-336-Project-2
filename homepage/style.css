@@ -307,7 +307,7 @@ h2 #event_list {
 #prointroduction div {
     width: 260px;
     height: 280px;
-    margin-bottom: 5em;
+    margin-bottom: 4em;
     margin-left:8%;
 }
  
@@ -315,15 +315,15 @@ h2 #event_list {
     display: table-cell;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    width: 220px;
-    height: 260px;
+    width: 80%;
+    height: 70%;
     margin-left:-5%;
 
 }
 
 #product_list{
 
-    position:30%;
+    padding-left:16%;
 
 }
 
