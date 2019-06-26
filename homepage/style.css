@@ -308,7 +308,6 @@ h2 #event_list {
     width: 260px;
     height: 280px;
     margin-bottom: 5em;
-
     margin-left:8%;
 }
  
@@ -318,10 +317,15 @@ h2 #event_list {
     font-family: 'Open Sans', sans-serif;
     width: 220px;
     height: 260px;
-margin-left:-5%;
+    margin-left:-5%;
 
 }
 
+#product_list{
+
+    position:30%;
+
+}
 
 
 @media screen and (max-width:30em){
