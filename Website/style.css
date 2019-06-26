@@ -99,6 +99,15 @@ h2 {
 	height:50%;
 }
 
+.hpImgs{
+    display:flex;
+    margin-left: 0em;
+    margin-top: 40px;
+    margin-bottom: 1em;
+    width:25%;
+    height:25%;
+}
+
 .titleImg{
  	margin-left: 25%;
  	margin-top: 3em;
