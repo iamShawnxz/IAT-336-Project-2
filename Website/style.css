@@ -274,11 +274,13 @@ h2 #event_list {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin: 90px auto 80px auto;
+    margin-left:-15%;
 }
  
 #prointroduction {
     display: flex;
     justify-content: space-between;
+    margin-left:-12%;
 }
  
 #prointroduction div {
@@ -300,6 +302,7 @@ h2 #event_list {
 
 #product_list{
     padding-left:16%;
+ 
 }
 
 
@@ -311,6 +314,7 @@ display:flex;
 #sidemenu_container{
 margin:0 auto;
 
+margin-left:5%;
 }
 
 #sidemenu_container ul{
