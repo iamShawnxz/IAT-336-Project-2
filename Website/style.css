@@ -525,8 +525,9 @@ p.login {
 
 .cartImg {
     margin:auto;
-    margin-bottom: 2em;
-        margin-top: 2em;
+
+        margin-top: -10em;
+
     width: 50%;
 }
 
