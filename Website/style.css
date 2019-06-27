@@ -543,13 +543,15 @@ a.btn-details:hover {
 
     nav {
         overflow: hidden;
-        background-color: #333;
+        background-color: black;
+       
         position: relative;
         padding: 0;
     }
 
     nav ul {
         display: none;
+    
     }
 
     nav ul#nav li{
@@ -557,6 +559,8 @@ a.btn-details:hover {
         width:100%;
         text-align:left;
         line-height:200%;
+         border-bottom: 0.5px solid lightgrey;
+         min-width:480px; 
     }
 
     nav ul#nav li.seperateLine{
@@ -583,13 +587,18 @@ a.btn-details:hover {
     }
 
     nav #nav a:hover {
-        background-color: #ddd;
-        color: black;
+    
+        color: grey;
         text-decoration: none;
     }
 
+li.nav1 a:hover {
+    border-bottom: 1px solid black;
+}
+
+
     .active {
-        background-color: #4CAF50;
+        background-color: black;
         color: white;
     }
 
