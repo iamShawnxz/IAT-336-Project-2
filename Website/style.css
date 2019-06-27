@@ -123,11 +123,12 @@ li.nav1 a:hover {
 
 h2 {
     font-family: 'Open Sans', sans-serif;
-    color: grey;
-    font-size: 30px;
+    color: black;
+    font-size: 25px;
     text-align: center;
     font-weight: bold;
     padding-left: 0.7em;
+    margin-top:3em;
     /*margin-bottom: -0.7em;*/
 }
 
