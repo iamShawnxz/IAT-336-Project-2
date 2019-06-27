@@ -752,6 +752,8 @@ a.btn-details:hover {
     color: white;
 }
 
+
+
 }
 
 
@@ -789,6 +791,7 @@ p.login {
 .productImg {
     width: 50%;
     height: auto;
+
 }
 
 .productImg2 {
@@ -844,6 +847,7 @@ color: black;
 
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -869,6 +873,7 @@ color: black;
 
 .cartImg {
     width: 50%;
+       
 }
 
 .cartP {
