@@ -509,4 +509,18 @@ p.login {
     width: 50%;
 }
 
+.cartP{
+  
+    color: black;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 3em;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    line-height: 250%;
+    letter-spacing: 1.5px;
+    text-align: left;  
+    
+}
+
 
