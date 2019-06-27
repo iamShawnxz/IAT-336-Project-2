@@ -556,3 +556,10 @@ p.login {
     font-size: 12px;
     justify-content: center;
 }
+
+a.btn-pay:hover {
+    transition: background-color 0.5s ease-out;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
