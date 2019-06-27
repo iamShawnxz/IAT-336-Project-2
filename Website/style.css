@@ -17,14 +17,12 @@ p {
 .h1_title {
     font-size: 1em;
     color: black;
-    /* background-color: #F7F7F5;*/
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     height: 3em;
 }
 
 #nav_top {
-    /*  background-color: #F7F7F5;*/
     text-align: right;
     list-style-type: none;
 
@@ -67,7 +65,6 @@ ul#nav {
 }
 
 li.nav1 {
-    /*border-right: 0.5px solid black;*/
     display: inline-block;
     font-size: 0.9em;
     width: 3em;
@@ -94,7 +91,6 @@ li.nav1 a:hover {
 
     margin-left: auto;
     margin-right: auto;
-    /*background-color: #F7F7F5;*/
 }
 
 #hpImages {
@@ -102,8 +98,6 @@ li.nav1 a:hover {
     justify-content: space-evenly;
     margin-bottom: 5em;
 
-    /*width: 100%;
-    height: 100%;*/
 }
 
 .eventList {
@@ -127,12 +121,7 @@ li.nav1 a:hover {
 
 
 .hpImgs {
-    /*display: flex;*/
-    /*margin-left: 0em;
-    margin-top: 40px;
-    margin-bottom: 1em;*/
     width: 100%;
-    /*height: 100%;*/
     border-radius: 20px;
 }
 
@@ -145,7 +134,6 @@ h2 {
     font-weight: bold;
     padding-left: 0.7em;
     margin-top: 3em;
-    /*margin-bottom: -0.7em;*/
 }
 
 .homepageImg {
@@ -267,10 +255,6 @@ h2 {
 
 
 
-
-
-/*event page*/
-
 .homepageParagraph {
     color: black;
     height: 200px;
@@ -293,9 +277,6 @@ h2 #event_list {
 }
 
 
-
-
-/*contact page*/
 
 #contacts {
     width: 80%;
@@ -321,14 +302,8 @@ h2 #event_list {
 
 
 
-/*#contacts>div>div:first-child {
-    border: 1px solid rgb(200, 200, 200);
-    border-radius: 10px;
-}*/
-
 #contacts input {
     width: 80%;
-    /*border-radius: 5px;*/
     border: 1px solid rgb(200, 200, 200);
 }
 
@@ -382,12 +357,6 @@ h2 #event_list {
 }
 
 
-
-
-/*shop page*/
-
-
-
 #sidemenu_container {
     width: 10%;
 }
@@ -404,7 +373,6 @@ h2 #event_list {
     margin: 0;
     margin-top: 10%;
     padding: 0;
-
     font-family: 'Open Sans', sans-serif;
     text-align: right;
 }
@@ -419,7 +387,6 @@ h2 #event_list {
 }
 
 #sidemenu_container ul li a:hover {
-
     border-bottom: 1px solid black;
     color: black;
 }
@@ -485,41 +452,6 @@ a.btn-details:hover {
 }
 
 
-
-/*
-
-
-
-
-.prointroduction {
-    
-}
-
-
-
-.prointroduction img {
-    display: table-cell;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    width: 80%;
-    height: 70%;
-}
-
-#product_list {
-    padding-left: 16%;
-
-}
-
-
-
-
-
-
-
-
-
-
-*/
 
 @media screen and (max-width:480px) {
     .nav {
@@ -686,7 +618,6 @@ a.btn-details:hover {
         justify-content: space-evenly;
 
 
-
     }
 
     #product_container img {
@@ -710,27 +641,18 @@ a.btn-details:hover {
 
 
 
-/*login page*/
-
 p.login {
     padding-left: 3em;
 }
 
 
-
-
-
-/*item page*/
-
 .proInfo {
     display: flex;
     justify-content: space-evenly;
 
-    /*border:1px solid red;*/
 }
 
 .proInfo div {
-    /*border:1px solid green;*/
     width: 45%;
 
 }
@@ -739,7 +661,6 @@ p.login {
     text-align: right;
 
 }
-
 
 
 .productImg {
@@ -770,42 +691,6 @@ p.login {
 }
 
 
-
-
-
-/*
-
-
-
-color: black;
-    width: 110%;
-    margin-bottom: 3em;
-    margin-top: 5em;
-    font-family: 'Muli', sans-serif;
-    font-size: 14px;
-    line-height: 250%;
-    letter-spacing: 1.5px;
-
-
-.proInfo>div {
-    margin: 10px;
-   justify-content: space-between;
-    padding: 20px;
-    font-size: 30px;
-}
-
-
-
-
-
-#productImg_contaioner {
-
-    margin: auto;
-    margin-top: -7%;
-}*/
-
-
-/*cart page*/
 
 .cart {
 
@@ -853,7 +738,6 @@ color: black;
 
 .btn-pay {
     margin-right: 1rem;
-
     color: black;
     border: 1px solid black;
     letter-spacing: 1px;
@@ -873,9 +757,6 @@ a.btn-pay:hover {
 }
 
 
-
-
-/*check out*/
 
 * {
     box-sizing: border-box;
