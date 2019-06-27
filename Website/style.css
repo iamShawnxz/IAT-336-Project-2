@@ -149,6 +149,12 @@ h2 {
 
 }
 
+.cartImg{
+     margin:auto;
+    margin-bottom: 2em;
+    width: 100%; 
+}
+
 .footer {
     height: 20px;
     padding-top: 2em;
