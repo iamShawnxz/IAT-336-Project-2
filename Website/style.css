@@ -672,6 +672,11 @@ a.btn-details:hover {
     .icon {
         display: block;
     }
+
+    #sidemenu_container {
+   display:none;
+}
+
 }
 
 
