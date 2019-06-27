@@ -127,14 +127,14 @@ h2 {
 
 
 
-/*.titleImg {
-    margin-left: 25%;
-    margin-top: 3em;
-    margin-bottom: 3em;
+.aboutImg {
+    display: flex;
+    margin:auto;
+    margin-bottom: 2em;
     width: 50%;
-    height: 100%;
-    float: left;
-}*/
+    height: 50%;
+
+}
 
 .footer {
     height: 20px;
@@ -154,7 +154,7 @@ h2 {
     color: black;
     font-size: 25px;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 5em;
+    margin-top: 2em;
     margin-bottom: 1em;
     font-weight: normal;
 }
@@ -169,7 +169,7 @@ h2 {
     font-size: 14px;
     line-height: 250%;
     letter-spacing: 1.5px;
-    text-align: center;
+    text-align: left;
 
 }
 
