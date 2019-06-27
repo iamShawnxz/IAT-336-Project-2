@@ -684,14 +684,14 @@ a.btn-details:hover {
     display: flex;
     justify-content: space-evenly;
 
-  
+
 
 }
 
 #product_container img {
     width: 100%;
     text-align: center;
-              min-width:180px;
+      
 
 }
 
@@ -699,6 +699,7 @@ a.btn-details:hover {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+      min-width: 200px;
     
     
 }
@@ -712,7 +713,7 @@ a.btn-details:hover {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    
+       
      
 }
 
@@ -740,6 +741,8 @@ a.btn-details:hover {
     padding-right: 1em;
     text-decoration: none;
     font-size: 12px;
+          
+
 }
 
 a.btn-details:hover {
