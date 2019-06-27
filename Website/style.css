@@ -282,9 +282,7 @@ h2 #event_list {
 
 
 /*shop page*/
-#product_page{
-    border:1px solid;
-}|
+
 #products {
     
     margin: 0 auto;
@@ -296,12 +294,12 @@ h2 #event_list {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin: 90px auto 80px auto;
-    margin-left: -15%;
+    margin-left: -14%;
 }
 
 .prointroduction {
     display: flex;
-    justify-content: space-between;
+ 
     margin-left: 2%;
 }
 
@@ -310,6 +308,7 @@ h2 #event_list {
     height: 280px;
     margin-bottom: 4em;
     margin-left: 8%;
+    
 }
 
 .prointroduction img {
@@ -318,7 +317,7 @@ h2 #event_list {
     font-family: 'Open Sans', sans-serif;
     width: 80%;
     height: 70%;
-    margin-left: -5%;
+    margin-left: 5%;
 
 }
 
