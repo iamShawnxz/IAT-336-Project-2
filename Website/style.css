@@ -695,64 +695,6 @@ a.btn-details:hover {
 
 }
 
-.prointroduction {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-      min-width: 200px;
-    
-    
-}
-
-.prointroduction div {
-    width: 280px;
-    text-align: center;
-}
-
-#products>div:first-child {
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-       
-     
-}
-
-.btn-buy {
-    margin: 0 0.5rem;
-    color: white;
-    background-color: black;
-    border: 1px solid black;
-    letter-spacing: 1px;
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 1em;
-    padding-right: 1em;
-    text-decoration: none;
-    font-size: 12px;
-   
-}
-
-.btn-details {
-    margin: 0 0.5rem;
-    color: black;
-    border: 1px solid black;
-    letter-spacing: 1px;
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 1em;
-    padding-right: 1em;
-    text-decoration: none;
-    font-size: 12px;
-          
-
-}
-
-a.btn-details:hover {
-    transition: background-color 0.5s ease-out;
-    background-color: black;
-    border: 1px solid black;
-    color: white;
-}
-
-
 
 }
 
@@ -934,6 +876,7 @@ a.btn-pay:hover {
     margin: 0 -16px;
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
+  
 }
 
 
@@ -941,6 +884,7 @@ a.btn-pay:hover {
 .col-50 {
     flex: 50%;
     padding: 0 16px;
+
 }
 
 .container {
@@ -948,6 +892,7 @@ a.btn-pay:hover {
     padding: 5px 20px 15px 20px;
     width: 30%;
     margin: 5% auto;
+
 }
 
 input[type=text],
