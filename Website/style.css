@@ -88,6 +88,11 @@ li.nav1 a:hover {
     height: 100%;*/
   
 }
+#eventList {
+    display: flex;
+    justify-content:space-evenly;
+  
+}
 
 #hpImages div{
     width:30%;
@@ -136,11 +141,9 @@ h2 {
 }
 
 .eventImg {
-    display: flex;
     margin:auto;
     margin-bottom: 2em;
-    width: 50%;
-    height: 50%;
+    width: 100%;
 
 }
 
