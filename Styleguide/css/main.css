@@ -43,7 +43,7 @@ section code {
   overflow: hidden;
   transition: background-color 0.5s ease-out;
 
-  border-right: 1px solid #BEA2A1;
+
   float: left;
   font-size: 1em;
   width:8em;
@@ -66,14 +66,31 @@ section code {
 
 /* Styling for the text link */
 .text-link{
-	color: #BEA2A1;
-	text-decoration:none;
-	transition: color 0.2s ease-out;
+	 display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left:12%;
+  padding-top: 2em;
+  overflow: hidden;
+  transition: background-color 0.5s ease-out;
+
+
+  float: left;
+  font-size: 1em;
+  width:8em;
+  padding-top: 0.1em;
+  padding-left: 2em;
+  padding-right: 2em;
+
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
 }
 
 .text-link:hover, .text-link:focus {
-	font-style:italic;
-    color: #696773;
+
+  color:#BEA2A1;
 }
 
 /* Styling for button submit */
