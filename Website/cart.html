@@ -6,7 +6,10 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300i,400|Tajawal&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hi Life.</title>
+    <script src="js/p2.js"></script>
 </head>
 
 <body>
@@ -19,47 +22,53 @@
         <a href="homepage.html"><img class="logo" src="img/logo.png" alt="logo"></a>
     </div>
     <p class="h1_title">Life. Essentials. Love.</p>
-    <ul id="nav">
-        <li class="nav1"><a href="homepage.html">HI LIFE </a></li>
-        <li class="nav1">|</li>
-        <li class="nav1"><a href="aboutus.html">ABOUT US </a></li>
-        <li class="nav1">|</li>
-        <li class="nav1"><a href="events.html">EVENTS </a></li>
-        <li class="nav1">|</li>
-        <li class="nav1"><a href="shop.html">SHOP </a></li>
-        <li class="nav1">|</li>
-        <li class="nav1"><a href="contact.html">CONTACT US</a></li>
-    </ul>
+   <nav>
+        <a href="#home" class="active">MENU</a>
+        <ul id="nav">
+            <li class="nav1"><a href="homepage.html">HI LIFE </a></li>
+            <li class="nav1 seperateLine">|</li>
+            <li class="nav1"><a href="aboutus.html">ABOUT US </a></li>
+            <li class="nav1 seperateLine">|</li>
+            <li class="nav1"><a href="events.html">EVENTS </a></li>
+            <li class="nav1 seperateLine">|</li>
+            <li class="nav1"><a href="shop.html">SHOP </a></li>
+            <li class="nav1 seperateLine">|</li>
+            <li class="nav1"><a href="contact.html">CONTACT US</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+            </a>
+    </nav>
     <main>
-    <h2 id="decorate_title">Shopping cart</h2>
-    <div class="cart">
-        <div>
-            <img class="cartImg" src="img/item1_2.jpg" alt="homepage_img">
+        <h2 id="decorate_title">Shopping cart</h2>
+        <div class="cart">
+            <div>
+                <img class="cartImg" src="img/item1_2.jpg" alt="homepage_img">
+            </div>
+            <div>
+                <p class="cartP"><strong>LANDSCAPE BILLFOLD WALLET</strong></p>
+                <p class="cartP">Color:Red Brown
+                    <br>Quantity: 1</p>
+                <p class="cartP">Price: $128
+                    <br>MADE IN USA 4" × 3.15" × 0.5"</p>
+                <br>
+                <p class="cartP">_________________________________</p>
+                <p class="cartP"><strong>In total: $128</strong>
+                    <br>
+                    <em>Shipping and taxes calculated at checkout</em></p>
+                <a class="btn-pay" href="pay.html">CHECK OUT</a>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
         </div>
-        <div>
-            <br>
-            <br>
-            <p class="cartP"><strong>LANDSCAPE BILLFOLD WALLET</strong></p>
-            <p class="cartP">Color:Red Brown<br>Quantity: 1</p>
-            <p class="cartP">Price: $128<br>MADE IN USA
-                4" × 3.15" × 0.5"</p>
-            <br>
-            <p class="cartP">_________________________________</p>
-            <p class="cartP"><strong>In total: $128</strong><br>
-                <em>Shipping and taxes calculated at checkout</em></p>
-            <a class="btn-pay" href="pay.html">CHECK OUT</a>
-            <br>
-            <br>
-            <br>
-            <br>
-        </div>
-    </div>
-     <footer>
-        <p class="footer">
-            © Hi Life Co., Ltd. HILIFE CANADA LIMITED
-            <br>+1 778-755-0977
-        </p>
-    </footer>
+        <footer>
+            <p class="footer">
+                © Hi Life Co., Ltd. HILIFE CANADA LIMITED
+                <br>+1 778-755-0977
+            </p>
+        </footer>
 </body>
 
 </html>

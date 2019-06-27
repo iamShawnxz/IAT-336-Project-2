@@ -6,7 +6,10 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300i,400|Tajawal&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hi Life.</title>
+    <script src="js/p2.js"></script>
 </head>
 
 <body>
@@ -19,34 +22,40 @@
         <a href="homepage.html"><img class="logo" src="img/logo.png" alt="logo"></a>
     </div>
     <p class="h1_title">Life. Essentials. Love.</p>
-    <ul id="nav">
-        <li class="nav1"><a href="homepage.html">HI LIFE </a></li>
-        <li class="nav1">|</li>
-        <li class="nav1"><a href="aboutus.html">ABOUT US </a></li>
-        <li class="nav1">|</li>
-        <li class="nav1"><a href="events.html">EVENTS </a></li>
-        <li class="nav1">|</li>
-        <li class="nav1"><a href="shop.html">SHOP </a></li>
-        <li class="nav1">|</li>
-        <li class="nav1"><a href="contact.html">CONTACT US</a></li>
-    </ul>
+    <nav>
+        <a href="#home" class="active">MENU</a>
+        <ul id="nav">
+            <li class="nav1"><a href="homepage.html">HI LIFE </a></li>
+            <li class="nav1 seperateLine">|</li>
+            <li class="nav1"><a href="aboutus.html">ABOUT US </a></li>
+            <li class="nav1 seperateLine">|</li>
+            <li class="nav1"><a href="events.html">EVENTS </a></li>
+            <li class="nav1 seperateLine">|</li>
+            <li class="nav1"><a href="shop.html">SHOP </a></li>
+            <li class="nav1 seperateLine">|</li>
+            <li class="nav1"><a href="contact.html">CONTACT US</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+            </a>
+    </nav>
     <main>
         <section>
             <img class="homepageImg" src="img/homepage_bg.jpg" alt="homepage_img">
             <h2>Designed with Love.</h2>
             <p id="homepagePara">
                 Hi is a Canadian design studio and product manufacturer founded by Jason Gregory in 2007. The studio works across a wide range of scales and disciplines, from soft goods and leather accessories, to product design, furniture, and interior architecture. Taking an industrial approach to craft, Makr began simply with a goal to create long-lasting designs with carefully considered details and construction techniques. By this process, products are continually refined over time—rather than in response to a market calendar or set schedule—and introduced as they reach a level of quality and utility.
-            <div id="hpImages">
-                <div>
-                    <a href="events.html"><img class="hpImgs" src="img/hpImg1.png" alt="design"></a>
+                <div id="hpImages">
+                    <div>
+                        <a href="events.html"><img class="hpImgs" src="img/hpImg1.png" alt="design"></a>
+                    </div>
+                    <div>
+                        <a href="shop.html"><img class="hpImgs" src="img/hpImg2.png" alt="design2"></a>
+                    </div>
+                    <div>
+                        <a href="aboutus.html"><img class="hpImgs" src="img/hpImg3.png" alt="design2"></a>
+                    </div>
                 </div>
-                <div>
-                    <a href="shop.html"><img class="hpImgs" src="img/hpImg2.png" alt="design2"></a>
-                </div>
-                <div>
-                    <a href="aboutus.html"><img class="hpImgs" src="img/hpImg3.png" alt="design2"></a>
-                </div>
-            </div>
         </section>
     </main>
     <footer>

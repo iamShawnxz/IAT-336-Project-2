@@ -6,7 +6,10 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300i,400|Tajawal&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hi Life.</title>
+    <script src="js/p2.js"></script>
 </head>
 
 <body>
@@ -19,27 +22,32 @@
         <a href="homepage.html"><img class="logo" src="img/logo.png" alt="logo"></a>
     </div>
     <p class="h1_title">Life. Essentials. Love.</p>
-    <ul id="nav">
-        <li class="nav1"><a href="homepage.html">HI LIFE </a></li>
-        <li class="nav1">|</li>
-        <li class="nav1"><a href="aboutus.html">ABOUT US </a></li>
-        <li class="nav1">|</li>
-        <li class="nav1"><a href="events.html">EVENTS </a></li>
-        <li class="nav1">|</li>
-        <li class="nav1"><a href="shop.html">SHOP </a></li>
-        <li class="nav1">|</li>
-        <li class="nav1"><a href="contact.html">CONTACT US</a></li>
-    </ul>
+    <nav>
+        <a href="#home" class="active">MENU</a>
+        <ul id="nav">
+            <li class="nav1"><a href="homepage.html">HI LIFE </a></li>
+            <li class="nav1 seperateLine">|</li>
+            <li class="nav1"><a href="aboutus.html">ABOUT US </a></li>
+            <li class="nav1 seperateLine">|</li>
+            <li class="nav1"><a href="events.html">EVENTS </a></li>
+            <li class="nav1 seperateLine">|</li>
+            <li class="nav1"><a href="shop.html">SHOP </a></li>
+            <li class="nav1 seperateLine">|</li>
+            <li class="nav1"><a href="contact.html">CONTACT US</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+            </a>
+    </nav>
     <main>
         <section>
             <h2 id="decorate_title">About Us</h2>
             <img class="aboutImg" src="img/about.jpg" alt="homepage_img">
             <p id="aboutusParagraph">HI is a Canadian grocery company which promoted various high-quality goods based on daily necessities such as clothing, daily groceries, and food. HI's potential customers was young people who love minimalism. The products focus on the concept of simplicity, environmental friendly and people-oriented. Product categories range from pencils, notebooks, and food to basic kitchen appliances.
             </p>
-           
         </section>
     </main>
-   <footer>
+    <footer>
         <p class="footer">
             © Hi Life Co., Ltd. HILIFE CANADA LIMITED
             <br>+1 778-755-0977

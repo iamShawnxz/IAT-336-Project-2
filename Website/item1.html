@@ -6,7 +6,10 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300i,400|Tajawal&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hi Life.</title>
+    <script src="js/p2.js"></script>
 </head>
 
 <body>
@@ -19,48 +22,54 @@
         <a href="homepage.html"><img class="logo" src="img/logo.png" alt="logo"></a>
     </div>
     <p class="h1_title">Life. Essentials. Love.</p>
-    <ul id="nav">
-        <li class="nav1"><a href="homepage.html">HI LIFE </a></li>
-        <li class="nav1">|</li>
-        <li class="nav1"><a href="aboutus.html">ABOUT US </a></li>
-        <li class="nav1">|</li>
-        <li class="nav1"><a href="events.html">EVENTS </a></li>
-        <li class="nav1">|</li>
-        <li class="nav1"><a href="shop.html">SHOP </a></li>
-        <li class="nav1">|</li>
-        <li class="nav1"><a href="contact.html">CONTACT US</a></li>
-    </ul>
+    <nav>
+        <a href="#home" class="active">MENU</a>
+        <ul id="nav">
+            <li class="nav1"><a href="homepage.html">HI LIFE </a></li>
+            <li class="nav1 seperateLine">|</li>
+            <li class="nav1"><a href="aboutus.html">ABOUT US </a></li>
+            <li class="nav1 seperateLine">|</li>
+            <li class="nav1"><a href="events.html">EVENTS </a></li>
+            <li class="nav1 seperateLine">|</li>
+            <li class="nav1"><a href="shop.html">SHOP </a></li>
+            <li class="nav1 seperateLine">|</li>
+            <li class="nav1"><a href="contact.html">CONTACT US</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+            </a>
+    </nav>
     <main>
-<section>
-<h2 id="decorate_title">LANDSCAPE BILLFOLD WALLET</h2>
-<div class="proInfo">
-    <div id="productImg_contaioner">
- <img class="productImg" src="img/item1_2.jpg" alt="homepage_img" >
-    </div>
-    <div>
- <p id="itempageParagraph">
-RUSSET WICKET & CRAIG ENGLISH BRIDLE LEATHER </p>
-
- <p id="itempageParagraph">S128<br>MADE IN USA
-4" × 3.15" × 0.5"</p>
-   </div>
-</div>
-   <p id="titlepageParagraph">
-Two interior card slots with one large cash pocket. Fits all currency and up to 6 cards per slot. Custom Vegetable Tanned Leather from Wicket and Craig®. Machine sewn, handsewn, rolled and painted edges. 
- </p>
-  <img class="productImg" src="img/item1_4.jpg" alt="homepage_img" >
-   <img class="productImg" src="img/item1_5.jpg" alt="homepage_img" >
-    <img class="productImg" src="img/item1_6.jpg" alt="homepage_img" >
- </section>
-</main>
-
-
-
-   <footer>
+        <section>
+            <h2 id="decorate_title">LANDSCAPE BILLFOLD WALLET</h2>
+            <div class="proInfo">
+                <div class="productImg_contaioner">
+                    <img class="productImg" src="img/item1_2.jpg" alt="homepage_img">
+                </div>
+                <div>
+                    <p class="itempageParagraph">
+                        RUSSET WICKET & CRAIG ENGLISH BRIDLE
+                        <br>LEATHER </p>
+                    <p class="itempageParagraph">S128
+                        <br>MADE IN USA 4" × 3.15" × 0.5"</p>
+                </div>
+            </div>
+            <div class="titlepageParagraph">
+                <p>
+                    Two interior card slots with one large cash pocket. Fits all currency and up to 6 cards per slot. Custom Vegetable Tanned Leather from Wicket and Craig®. Machine sewn, handsewn, rolled and painted edges.
+                </p>
+                <img class="productImg2" src="img/item1_4.jpg" alt="homepage_img">
+                <img class="productImg2" src="img/item1_5.jpg" alt="homepage_img">
+                <img class="productImg2" src="img/item1_6.jpg" alt="homepage_img">
+            </div>
+        </section>
+    </main>
+    <footer>
         <p class="footer">
             © Hi Life Co., Ltd. HILIFE CANADA LIMITED
             <br>+1 778-755-0977
         </p>
     </footer>
 </body>
+
 </html>
