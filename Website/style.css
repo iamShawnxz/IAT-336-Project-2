@@ -149,11 +149,7 @@ h2 {
 
 }
 
-.cartImg{
-     margin:auto;
-    margin-bottom: 2em;
-    width: 50%; 
-}
+
 
 .footer {
     height: 20px;
@@ -483,4 +479,10 @@ p.login {
 #cart{
        display: flex;
     justify-content:space-evenly;
+}
+
+.cartImg{
+     margin:auto;
+    margin-bottom: 2em;
+    width: 50%; 
 }
