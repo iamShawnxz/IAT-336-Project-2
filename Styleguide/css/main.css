@@ -161,31 +161,11 @@ section code {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.bullet-lst-no-link{
-	font-family: 'Montserrat', sans-serif;
-	list-style-type:square;
-}
 
-
-.bullet-lst-with-link a{
-	font-family: 'Montserrat', sans-serif;
-	color:#BEA2A1;
-	text-decoration:none;
-}
-
-.bullet-lst-with-link a:hover, .bullet-lst-with-link a:focus{
-	display:inline-block;
-	font-family: 'Montserrat', sans-serif;
-	color:grey;
-	text-decoration-line: underline;
-	font-weight:bold;
-	padding:0.2em;
-}
-
-.numb-list{
+.list{
 	font-family: 'Montserrat', sans-serif;
 	text-decoration:none;
-	color:grey;
+	color:black;
 }
 
 
