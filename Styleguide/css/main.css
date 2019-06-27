@@ -212,7 +212,6 @@ h1.h1_hi{
 	font-weight: normal;
 	font-size:3em;
 	color:black;
-    background-color: #F7F7F5;
     padding-top: 1em;
 
     padding-bottom: 0.8em;
@@ -245,20 +244,21 @@ display: inline;
 ul#nav{	
 
     list-style-type: none;
-    padding-left:12%;
+    padding-left:25%;
     padding-top: 2em;
     overflow: hidden;
     transition: background-color 0.5s ease-out;
+
 }
 
 li.nav1{
-  border-right: 1px solid black;
+
   float: left;
   font-size: 1em;
   width:8em;
   padding-top: 0.1em;
-  padding-left: 2em;
-  padding-right: 2em;
+
+
 
 }
 
@@ -271,19 +271,10 @@ li.nav1 a {
 }
 
 li.nav1 a:hover {
-	 border-bottom: 2px solid black;
+
      color:#BEA2A1;
 }
 
-.h2_hi {
-	color:grey;
-    font-size:70px;
-   	align-self:center;
-	font-weight: bold;
-	margin-bottom: -0.7em;
-	position:absolute;
-
-}
 
 .homepagesection{
 	display:flex;
@@ -313,12 +304,12 @@ li.nav1 a:hover {
 	height: 20px;
 	padding-top: 2em;
 	padding-bottom: 2em;
-	color:black;
+	color:white;
 	clear: both;
 	width:100%;
 	bottom:0;
     text-align: center;
-    background-color: #F7F7F5;
+    background-color: black;
   	position: relative;
    	margin-top: 200px;
 }
