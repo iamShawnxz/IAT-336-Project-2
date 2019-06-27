@@ -527,7 +527,7 @@ p.login {
 .cartImg {
     margin:auto;
 
-        margin-top: -15em;
+       margin-top: -15rem;
 
     width: 50%;
 }
@@ -537,7 +537,7 @@ p.login {
     color: black;
     width: 50%;
     margin-left: 25%;
-    margin-bottom: 3em;
+
     font-family: 'Muli', sans-serif;
     font-size: 14px;
     line-height: 250%;
