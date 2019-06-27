@@ -468,6 +468,8 @@ p.login {
 
 }
 
+
+
 #productImg_contaioner {
 
     margin: auto;
@@ -476,13 +478,36 @@ p.login {
 
 
 /*cart page*/
-#cart{
+.cart{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
 }
 
 .cartImg{
     margin:auto;
     margin-bottom: 2em;
-    width: 100%; 
+    width: 50%; 
 }
+
+.cartParagraph{
+    color: black;
+    width: 50%;
+    margin:auto;
+    margin-bottom: 3em;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    line-height: 250%;
+    letter-spacing: 1.5px;
+    text-align: left;
+
+}
+
+
+
+
+
+
+
+
+
+
