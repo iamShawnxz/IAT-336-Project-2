@@ -8,7 +8,7 @@ p {
     font-family: 'Muli', sans-serif;
 }
 
-h1 {
+/*h1 {
     font-weight: normal;
     font-size: 3em;
     color: black;
@@ -16,10 +16,10 @@ h1 {
     padding-top: 1.5em;
     padding-bottom: 0.8em;
     margin-top: -1.2em;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Gotham bold', sans-serif;
     text-align: center;
     width: 100%;
-}
+}*/
 
 .h1_title {
     font-size: 0.5em;
@@ -80,6 +80,13 @@ li.nav1 a:hover {
     color: #BEA2A1;
 }
 
+.logo {
+    width:15%;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+      background-color: #F7F7F5;
+}
 
 #hpImages {
     display: flex;
@@ -146,9 +153,12 @@ h2 {
     margin:auto;
     margin-bottom: 2em;
     width: 100%;
-
 }
-
+.eventImg2 {
+    margin:auto;
+    margin-bottom: 2em;
+    width: 40%;
+}
 
 
 .footer {
@@ -179,13 +189,24 @@ h2 {
     color: black;
     width: 50%;
     margin-left: 25%;
-    margin-bottom: 3em;
+
     font-family: 'Muli', sans-serif;
     font-size: 14px;
     line-height: 250%;
     letter-spacing: 1.5px;
     text-align: left;
+}
 
+#eventTitle {
+
+    color: black;
+    width: 50%;
+    margin-left: 25%;
+    font-family: 'Muli bold', sans-serif;
+    font-size: 20px;
+    line-height: 250%;
+    letter-spacing: 1.5px;
+    text-align: left;
 }
 
 
