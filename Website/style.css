@@ -527,7 +527,7 @@ p.login {
 .cartImg {
     margin:auto;
 
-        margin-top: -10em;
+        margin-top: -15em;
 
     width: 50%;
 }
@@ -548,6 +548,7 @@ p.login {
 
 .btn-pay {  
     margin-right: 1rem;
+ 
     color: black;
     border: 1px solid black;
     letter-spacing: 1px;
@@ -557,6 +558,7 @@ p.login {
     text-decoration: none;
     font-size: 12px;
     justify-content: center;
+
 }
 
 a.btn-pay:hover {
