@@ -567,3 +567,89 @@ a.btn-pay:hover {
     border: 1px solid black;
     color: white;
 }
+
+
+/*check out*/
+* {
+  box-sizing: border-box;
+}
+
+.row {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+
+
+.col-50 {
+  -ms-flex: 50%; 
+  flex: 50%;
+}
+
+
+
+.col-50 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+
+
+.btn {
+    background-color: black;
+    color:white;
+
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+ transition: color 0.5s ease-out;
+    background-color: black;
+
+    color: grey;
+
+}
+
+
+
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
