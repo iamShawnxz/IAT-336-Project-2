@@ -497,6 +497,7 @@ p.login {
     font-size: 14px;
     line-height: 250%;
     letter-spacing: 1.5px;
+    
 }
 
 
@@ -504,8 +505,8 @@ p.login {
 .cartImg {
     margin:auto;
     margin-bottom: 2em;
-    width: 100%;
-
+        margin-top: 2em;
+    width: 50%;
 }
 
 
