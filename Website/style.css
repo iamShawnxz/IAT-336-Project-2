@@ -479,31 +479,25 @@ p.login {
 
 /*cart page*/
 .cart{
+    
     display: flex;
-    justify-content:space-between;
+  justify-content: center;
+
+
 }
 
-.cartImg{
-    margin:auto;
-    margin-bottom: 2em;
-    width: 50%; 
-}
 
-.cartParagraph{
-    color: black;
-    width: 50%;
-    margin:auto;
-    margin-bottom: 3em;
-    font-family: 'Muli', sans-serif;
+
+.cart > div {
+  background-color: #f1f1f1;
+
+  margin: auto;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
     font-size: 14px;
     line-height: 250%;
     letter-spacing: 1.5px;
-    text-align: left;
-
 }
-
-
-
 
 
 
