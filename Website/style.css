@@ -697,7 +697,7 @@ a.btn-details:hover {
 
 .titlepageParagraph {
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
     line-height: 250%;
     letter-spacing: 1.5px;
   
