@@ -373,7 +373,7 @@ h2 #event_list {
 
 .prointroduction {
     display: flex;
- 
+    border:1px solid red;
     margin-left: 2%;
 }
 
