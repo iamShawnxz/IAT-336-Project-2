@@ -201,6 +201,19 @@ h2 {
     text-align: left;
 }
 
+#homepagePara {
+
+    color: black;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 8em;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    line-height: 250%;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+
 #eventTitle {
 
     color: black;
