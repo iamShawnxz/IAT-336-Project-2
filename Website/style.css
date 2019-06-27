@@ -695,6 +695,15 @@ a.btn-details:hover {
 
 }
 
+.titlepageParagraph {
+    width: 80%;
+    margin: auto;
+    line-height: 250%;
+    letter-spacing: 1.5px;
+  
+}
+
+
 
 }
 
@@ -722,10 +731,12 @@ p.login {
 .proInfo div {
     /*border:1px solid green;*/
     width: 45%;
+   
 }
 
 .productImg_contaioner {
     text-align: right;
+  
 }
 
 
