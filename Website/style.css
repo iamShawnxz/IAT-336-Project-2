@@ -489,6 +489,8 @@ p.login {
 
 }
 
+
+
 #productImg_contaioner {
 
     margin: auto;
@@ -497,13 +499,49 @@ p.login {
 
 
 /*cart page*/
-#cart{
-       display: flex;
-    justify-content:space-evenly;
+.cart{
+    
+    display: flex;
+  justify-content: center;
+
+
 }
 
-.cartImg{
-     margin:auto;
-    margin-bottom: 2em;
-    width: 50%; 
+
+
+.cart > div {
+  background-color: #f1f1f1;
+   width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    line-height: 250%;
+    letter-spacing: 1.5px;
+    
 }
+
+
+
+.cartImg {
+    margin:auto;
+    margin-bottom: 2em;
+        margin-top: 2em;
+    width: 50%;
+}
+
+.cartP{
+  
+    color: black;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 3em;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    line-height: 250%;
+    letter-spacing: 1.5px;
+    text-align: left;  
+    
+}
+
+
