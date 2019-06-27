@@ -165,7 +165,10 @@ section code {
 .list{
 	font-family: 'Montserrat', sans-serif;
 	text-decoration:none;
+  text-align:left;
+display: block;
 	color:black;
+  list-style-type: none;'
 }
 
 
