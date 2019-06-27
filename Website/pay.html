@@ -27,21 +27,40 @@
 <li class="nav1"><a href="contact.html">CONTACT US</a></li>
 </ul>
 
-<main>
 
-<section id="contacts">
-        <div>
-            <div>
-                <div id="fell">LOG IN</div>
-                <p class="login">Name: </p>
-                <input type="email" id="email" placeholder="name" />
-                <p class="login">Password: </p>
-                <input type="text" id="subject" placeholder="password" />
-                <input type="submit" id="send" value="Login" />
+ <div class="container">
+   <div class="row">
+  <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Credit Cards</label>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" >
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" >
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" >
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" >
+              </div>
             </div>
+          </div>
+          
         </div>
-    </section>
-
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+  </div>
+ </div>
+</div>
 
 <footer>
 <p class="footer">@Hi Life</p>
