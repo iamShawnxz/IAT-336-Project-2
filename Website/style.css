@@ -41,6 +41,9 @@ p {
     /*  background-color: #F7F7F5;*/
     text-align: right;
     list-style-type: none;
+   
+  font-family: 'Tajawal', sans-serif;
+
 }
 
 #nav_top li {
@@ -49,6 +52,17 @@ p {
     margin-right: 2em;
     overflow: hidden;
     transition: background-color 0.5s ease-out;
+}
+
+#nav_top a {
+     text-decoration: none;
+     color:#000000;
+}
+
+
+#nav_top a:hover {
+    border-bottom: 1px solid black;
+    color: #BEA2A1;
 }
 
 ul#nav li {
