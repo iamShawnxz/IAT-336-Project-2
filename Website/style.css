@@ -477,12 +477,12 @@ p.login {
 
 /*cart page*/
 #cart{
-       display: flex;
+    display: flex;
     justify-content:space-evenly;
 }
 
 .cartImg{
-     margin:auto;
+    margin:auto;
     margin-bottom: 2em;
-    width: 50%; 
+    width: 100%; 
 }
