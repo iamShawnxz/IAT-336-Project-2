@@ -556,13 +556,13 @@ a.btn-details:hover {
         width: 100%;
     }
 
-    .titlepageParagraph2 {
+.titlepageParagraph2 {
 
-        width: 90%;
-        margin: 0 3%;
-        font-family: 'Muli', sans-serif;
-        letter-spacing: 1.5px;
-    }
+    width: 80%;
+    margin: auto;
+    line-height: 250%;
+    letter-spacing: 1.5px;
+}
 
     #con {
 
@@ -581,6 +581,32 @@ a.btn-details:hover {
         font-weight: 400;
     }
 
+#email {
+    height: 100%;
+    margin-left: 50px;
+}
+
+#subject {
+    height: 100%;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#message {
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 100%;
+}
+
+#send {
+    height: 100%;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1em;
+}
     nav {
         overflow: hidden;
         background-color: black;
