@@ -302,11 +302,11 @@ h2 #event_list {
 .prointroduction {
     display: flex;
     justify-content: space-between;
-    margin-left: -12%;
+    margin-left: 2%;
 }
 
 .prointroduction div {
-    width: 260px;
+    width: 25%;
     height: 280px;
     margin-bottom: 4em;
     margin-left: 8%;
