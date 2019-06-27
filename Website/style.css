@@ -94,6 +94,8 @@ li.nav1 a:hover {
   
 }
 
+
+
 #hpImages div{
     width:30%;
     text-align:center;
@@ -468,4 +470,11 @@ p.login {
 
     margin: auto;
     margin-top: -7%;
+}
+
+
+/*cart page*/
+#cart{
+       display: flex;
+    justify-content:space-evenly;
 }
