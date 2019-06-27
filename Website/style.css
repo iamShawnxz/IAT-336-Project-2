@@ -83,6 +83,7 @@ li.nav1 a:hover {
 .logo {
     width:15%;
       display: block;
+
   margin-left: auto;
   margin-right: auto;
       background-color: #F7F7F5;
@@ -162,13 +163,14 @@ h2 {
 
 
 .footer {
-    height: 20px;
+    height: 12px;
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
     color: black;
     clear: both;
     width: 100%;
     text-align: center;
+    font-size:11px;
     background-color: #F7F7F5;
     /*margin-top: 50%;*/
 }
