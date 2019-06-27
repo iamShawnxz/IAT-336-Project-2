@@ -89,6 +89,7 @@ li.nav1 a:hover {
 
 .logo {
     width: 15%;
+    min-width: 200px;
     display: block;
 
     margin-left: auto;
@@ -534,8 +535,6 @@ a.btn-details:hover {
     }
 
     #homepagePara {
-
-
         width: 90%;
         margin: 0 4%;
         margin-bottom: 8em;
